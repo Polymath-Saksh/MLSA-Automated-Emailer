@@ -1,4 +1,4 @@
-# MLSA-Automated-Emailer
+# MLSA-Automated-Emailer [![License: MIT][License-Badge]](LICENSE.md) [![Made with Python][Python-Badge]](https://www.python.org/) 
 
 This is a python based automated emailer that sends emails to the participants of MLSA events. It uses `smtplib` to send emails with a csv file containing the name,email addresses of the participants.
 
@@ -70,7 +70,7 @@ This is a python based automated emailer that sends emails to the participants o
 
     - Confirm the directory structure as shown below(`.gitignore` can be ignored):
 
-    ![Directory](directory.png)
+    ![Directory](Directory.png)
 
 
     - Run the [EmailSender.py](EmailSender.py) file:
@@ -92,3 +92,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgements
 
 - [Sarita-021](https://github.com/Sarita-021) for the Certificate Generator.
+
+[License-Badge]:        https://img.shields.io/badge/License-MIT-blue.svg
+
+[Python-Badge]: https://img.shields.io/badge/Python-FFFFFF?logo=python&logoColor=000
