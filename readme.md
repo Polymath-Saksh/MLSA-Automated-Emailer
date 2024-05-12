@@ -34,7 +34,17 @@ git clone https://github.com/Polymath-Saksh/MLSA-Automated-Emailer.git
 3. Edit the email content **(Optional)**:
 
     - You can edit the email content in the [email_template.html](email_template.html) file.
+    - You can add MLSA Logos based on your level as well! Just replace `LevelNew.png` in the logo url with `LevelAlpha.png`,`LevelBeta.png` or `LevelGold.png`. Example:
 
+        ```html
+        <div class="mlsa-logo-credentials">
+            <img src="https://mvp.microsoft.com/Assets/UserProfile/MSA/Badge/LevelGold.png" alt="Microsoft Learn Student Ambassador Logo" width="100">
+        </div>
+
+        <div class="mlsa-logo-credentials">
+            <img src="https://mvp.microsoft.com/Assets/UserProfile/MSA/Badge/LevelNew.png" alt="Microsoft Learn Student Ambassador Logo" width="100">
+        </div>
+        ```
     - Do not remove the receiver_name, event_name and event_date placeholders in the email content, as they will be replaced with the actual values during runtime.
 
 4. Add your event details:
@@ -83,7 +93,7 @@ git clone https://github.com/Polymath-Saksh/MLSA-Automated-Emailer.git
 
 ## Contributing
 
-Contributions are welcome! Please refer to the [contributing guidelines](CONTRIBUTING.md) for detailed information. 
+Contributions are welcome! Please refer to the [contributing guidelines](CONTRIBUTING.md) for detailed information.
 
 ## License
 
