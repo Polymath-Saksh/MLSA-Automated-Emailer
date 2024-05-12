@@ -111,7 +111,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [Sarita-021](https://github.com/Sarita-021) for the Certificate Generator.
 
-- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com/) for the inspiration.
+- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com/)
+
 [License-Badge]:        https://img.shields.io/badge/License-MIT-blue.svg
 
 [Python-Badge]: https://img.shields.io/badge/Python-FFFFFF?logo=python&logoColor=000
