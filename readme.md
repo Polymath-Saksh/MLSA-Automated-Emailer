@@ -1,5 +1,7 @@
 # MLSA-Automated-Emailer [![License: MIT][License-Badge]](LICENSE.md) [![Made with Python][Python-Badge]](https://www.python.org/)
 
+<img src="https://mvp.microsoft.com/Assets/UserProfile/MSA/Badge/LevelNew.png" height="200" style="display: block; margin: 0 auto;"><br>
+
 This is a python based automated emailer that sends emails to the participants of MLSA events. It uses `smtplib` to send emails with a csv file containing the name,email addresses of the participants.
 
 ## How to use
@@ -34,18 +36,23 @@ git clone https://github.com/Polymath-Saksh/MLSA-Automated-Emailer.git
 3. Edit the email content **(Optional)**:
 
     - You can edit the email content in the [email_template.html](email_template.html) file.
+    
     - You can add MLSA Logos based on your level as well! Just replace `LevelNew.png` in the logo url with `LevelAlpha.png`,`LevelBeta.png` or `LevelGold.png`.
-    Example:
 
         ```html
-        <div class="mlsa-logo-credentials">
-            <img src="https://mvp.microsoft.com/Assets/UserProfile/MSA/Badge/LevelGold.png" alt="Microsoft Learn Student Ambassador Logo" width="100">
-        </div>
+            <div class="mlsa-logo-credentials">
+                <img src="https://mvp.microsoft.com/Assets/UserProfile/MSA/Badge/LevelGold.png" alt="Microsoft Learn Student Ambassador Logo" width="100">
+            </div>
 
-        <div class="mlsa-logo-credentials">
-            <img src="https://mvp.microsoft.com/Assets/UserProfile/MSA/Badge/LevelNew.png" alt="Microsoft Learn Student Ambassador Logo" width="100">
-        </div>
+            <div class="mlsa-logo-credentials">
+                <img src="https://mvp.microsoft.com/Assets/UserProfile/MSA/Badge/LevelNew.png" alt="Microsoft Learn Student Ambassador Logo" width="100">
+            </div>
         ```
+
+    <img src="https://mvp.microsoft.com/Assets/UserProfile/MSA/Badge/LevelNew.png" height="100">
+    <img src="https://mvp.microsoft.com/Assets/UserProfile/MSA/Badge/LevelAlpha.png" height="100">
+    <img src="https://mvp.microsoft.com/Assets/UserProfile/MSA/Badge/LevelBeta.png" height="100">
+    <img src="https://mvp.microsoft.com/Assets/UserProfile/MSA/Badge/LevelGold.png" height="100"><br>
 
     - Do not remove the receiver_name, event_name and event_date placeholders in the email content, as they will be replaced with the actual values during runtime.
 
@@ -104,6 +111,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [Sarita-021](https://github.com/Sarita-021) for the Certificate Generator.
 
+- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com/) for the inspiration.
 [License-Badge]:        https://img.shields.io/badge/License-MIT-blue.svg
 
 [Python-Badge]: https://img.shields.io/badge/Python-FFFFFF?logo=python&logoColor=000
