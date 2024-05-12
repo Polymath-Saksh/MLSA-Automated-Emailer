@@ -1,4 +1,4 @@
-# MLSA-Automated-Emailer [![License: MIT][License-Badge]](LICENSE.md) [![Made with Python][Python-Badge]](https://www.python.org/) 
+# MLSA-Automated-Emailer [![License: MIT][License-Badge]](LICENSE.md) [![Made with Python][Python-Badge]](https://www.python.org/)
 
 This is a python based automated emailer that sends emails to the participants of MLSA events. It uses `smtplib` to send emails with a csv file containing the name,email addresses of the participants.
 
@@ -34,7 +34,8 @@ git clone https://github.com/Polymath-Saksh/MLSA-Automated-Emailer.git
 3. Edit the email content **(Optional)**:
 
     - You can edit the email content in the [email_template.html](email_template.html) file.
-    - You can add MLSA Logos based on your level as well! Just replace `LevelNew.png` in the logo url with `LevelAlpha.png`,`LevelBeta.png` or `LevelGold.png`. Example:
+    - You can add MLSA Logos based on your level as well! Just replace `LevelNew.png` in the logo url with `LevelAlpha.png`,`LevelBeta.png` or `LevelGold.png`.
+    Example:
 
         ```html
         <div class="mlsa-logo-credentials">
@@ -45,6 +46,7 @@ git clone https://github.com/Polymath-Saksh/MLSA-Automated-Emailer.git
             <img src="https://mvp.microsoft.com/Assets/UserProfile/MSA/Badge/LevelNew.png" alt="Microsoft Learn Student Ambassador Logo" width="100">
         </div>
         ```
+
     - Do not remove the receiver_name, event_name and event_date placeholders in the email content, as they will be replaced with the actual values during runtime.
 
 4. Add your event details:
@@ -81,7 +83,6 @@ git clone https://github.com/Polymath-Saksh/MLSA-Automated-Emailer.git
     - Confirm the directory structure as shown below(`.gitignore` can be ignored):
 
     ![Directory](Directory.png)
-
 
     - Run the [EmailSender.py](EmailSender.py) file:
 
