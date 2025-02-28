@@ -37,7 +37,7 @@ git clone https://github.com/Polymath-Saksh/MLSA-Automated-Emailer.git
 
     - You can edit the email content in the [email_template.html](email_template.html) file.
     
-    - You can add MLSA Logos based on your level as well! Just replace `LevelNew.png` in the logo url with `LevelAlpha.png`,`LevelBeta.png` or `LevelGold.png`.
+    - You can add MLSA Logos based on your level as well! Just replace `LevelNew.png` in the logo url with `LevelBeta.png` or `LevelGold.png`.
 
         ```html
             <div class="mlsa-logo-credentials">
@@ -50,7 +50,6 @@ git clone https://github.com/Polymath-Saksh/MLSA-Automated-Emailer.git
         ```
 
     <img src="https://mvp.microsoft.com/Assets/UserProfile/MSA/Badge/LevelNew.png" height="100">
-    <img src="https://mvp.microsoft.com/Assets/UserProfile/MSA/Badge/LevelAlpha.png" height="100">
     <img src="https://mvp.microsoft.com/Assets/UserProfile/MSA/Badge/LevelBeta.png" height="100">
     <img src="https://mvp.microsoft.com/Assets/UserProfile/MSA/Badge/LevelGold.png" height="100"><br>
 
